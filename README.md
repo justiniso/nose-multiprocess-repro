@@ -1,3 +1,5 @@
+The nose config is not pickle-able, making the multiprocesses test loader ignore any additional plugins in the config.
+
 ```python test_main.py 1```
 
 > WARNING:root:Running tests with 1 processes
